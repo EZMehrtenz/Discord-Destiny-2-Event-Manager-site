@@ -48,3 +48,8 @@ Public media source files live in `assets/media/` and are copied to `docs/assets
 - Wide banner: https://ezmehrtenz.github.io/destiny-2-event-manager-site/assets/media/destiny-2-event-manager-banner.png
 
 Both images use the tagline “We’ve got your back, Guardian.”. Add future approved public assets to the source folder and run the build before committing.
+
+Additional upload sizes (same design and tagline):
+
+- Bot profile, 680 × 240: https://ezmehrtenz.github.io/destiny-2-event-manager-site/assets/media/destiny-2-event-manager-680x240.png
+- 16:9, 1024 × 576: https://ezmehrtenz.github.io/destiny-2-event-manager-site/assets/media/destiny-2-event-manager-1024x576.png
