@@ -1,4 +1,4 @@
-import { readFile, writeFile, mkdir, copyFile } from 'node:fs/promises';
+import { readFile, writeFile, mkdir, copyFile, cp } from 'node:fs/promises';
 const config = JSON.parse(await readFile(new URL('./site.json', import.meta.url), 'utf8'));
 if (!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(config.email)) throw new Error('A valid support contact is required.');
 const esc = text => String(text).replaceAll('&','&amp;').replaceAll('<','&lt;').replaceAll('>','&gt;').replaceAll('"','&quot;');
@@ -13,6 +13,7 @@ function shell(file, title, description, main) {
 }
 await mkdir(new URL('./docs/assets/',import.meta.url),{recursive:true});
 for (const file of ['logo.svg','style.css']) await copyFile(new URL('./assets/'+file,import.meta.url),new URL('./docs/assets/'+file,import.meta.url));
+await cp(new URL('./assets/media/',import.meta.url),new URL('./docs/assets/media/',import.meta.url),{recursive:true});
 await writeFile(new URL('./docs/.nojekyll',import.meta.url),'');
 for (const name of ['terms','privacy','support']) {
   const data=JSON.parse(await readFile(new URL('./content/'+name+'.json',import.meta.url),'utf8'));

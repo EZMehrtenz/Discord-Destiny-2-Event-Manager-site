@@ -39,3 +39,12 @@ This site is independent of the bot application’s runtime hosting. Publishing 
 - Terms: https://ezmehrtenz.github.io/destiny-2-event-manager-site/terms.html
 - Privacy: https://ezmehrtenz.github.io/destiny-2-event-manager-site/privacy.html
 - Support: https://ezmehrtenz.github.io/destiny-2-event-manager-site/support.html
+
+## Externally usable media
+
+Public media source files live in `assets/media/` and are copied to `docs/assets/media/` by the build. Use the GitHub Pages addresses directly in Discord, not GitHub file-viewer URLs. Everything in this directory is public.
+
+- 16:9 cover: https://ezmehrtenz.github.io/destiny-2-event-manager-site/assets/media/destiny-2-event-manager-cover.png
+- Wide banner: https://ezmehrtenz.github.io/destiny-2-event-manager-site/assets/media/destiny-2-event-manager-banner.png
+
+Both images use the tagline “We’ve got your back, Guardian.”. Add future approved public assets to the source folder and run the build before committing.
