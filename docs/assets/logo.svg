@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_1" xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 512 512">
+  <!-- Generator: Adobe Illustrator 30.3.0, SVG Export Plug-In . SVG Version: 2.1.3 Build 182)  -->
+  <defs>
+    <style>
+      .st0 {
+        fill: url(#linear-gradient2);
+      }
+
+      .st1 {
+        stroke: #95edf6;
+        stroke-linecap: round;
+      }
+
+      .st1, .st2 {
+        stroke-width: 3px;
+      }
+
+      .st2 {
+        fill: url(#radial-gradient2);
+        stroke: #0a131a;
+        stroke-linejoin: round;
+      }
+
+      .st3 {
+        fill: #fff;
+      }
+
+      .st4 {
+        fill: url(#linear-gradient1);
+      }
+
+      .st5 {
+        stroke: #f0f6f8;
+        stroke-opacity: .23;
+      }
+
+      .st5, .st6, .st7, .st8 {
+        fill: none;
+      }
+
+      .st5, .st6, .st8, .st9, .st10 {
+        stroke-width: 2px;
+      }
+
+      .st6 {
+        stroke: #9deaf4;
+      }
+
+      .st11 {
+        fill: url(#radial-gradient1);
+      }
+
+      .st12 {
+        fill: #071018;
+      }
+
+      .st7 {
+        stroke: #b6cbd5;
+        stroke-opacity: .13;
+      }
+
+      .st8 {
+        stroke: #b8ced8;
+        stroke-opacity: .15;
+      }
+
+      .st9 {
+        fill: #49d3e5;
+        fill-opacity: .18;
+        stroke: #66dcea;
+        stroke-opacity: .35;
+      }
+
+      .st10 {
+        fill: url(#radial-gradient);
+        stroke: #6e8491;
+      }
+
+      .st13 {
+        fill: url(#linear-gradient);
+      }
+    </style>
+    <linearGradient id="linear-gradient" x1="-1403.07" y1="1.18" x2="-1402.07" y2="2.18" gradientTransform="translate(673490 -550) scale(480)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#edf3f5"/>
+      <stop offset=".24" stop-color="#828f99"/>
+      <stop offset=".48" stop-color="#313c46"/>
+      <stop offset=".72" stop-color="#a9b6bf"/>
+      <stop offset="1" stop-color="#4c5964"/>
+    </linearGradient>
+    <radialGradient id="radial-gradient" cx="-1402.38" cy="1.66" fx="-1402.38" fy="1.66" r=".7" gradientTransform="translate(622892 -532) scale(444)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#263640"/>
+      <stop offset=".65" stop-color="#131e27"/>
+      <stop offset="1" stop-color="#080f16"/>
+    </radialGradient>
+    <radialGradient id="radial-gradient1" cx="-1398.8" cy="3.2" fx="-1398.8" fy="3.2" r=".5" gradientTransform="translate(294005 -415) scale(210)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#b2faff" stop-opacity=".35"/>
+      <stop offset=".45" stop-color="#61ddeb" stop-opacity=".14"/>
+      <stop offset="1" stop-color="#61ddeb" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="radial-gradient2" cx="257.38" cy="240.88" fx="257.38" fy="240.88" r="176.71" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#fff"/>
+      <stop offset=".54" stop-color="#b2c0ca"/>
+      <stop offset=".68" stop-color="#96a5b1"/>
+      <stop offset=".89" stop-color="#728491"/>
+      <stop offset="1" stop-color="#657886"/>
+    </radialGradient>
+    <linearGradient id="linear-gradient1" x1="-1391.15" y1="1.98" x2="-1391.15" y2="2.98" gradientTransform="translate(136591 -430) scale(98 286)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#fff"/>
+      <stop offset=".55" stop-color="#d4fcff"/>
+      <stop offset="1" stop-color="#70dfed"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient2" x1="-1358.63" y1="9.44" x2="-1358.63" y2="10.44" gradientTransform="translate(41015 -340) scale(30 60)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#fff"/>
+      <stop offset=".55" stop-color="#d4fcff"/>
+      <stop offset="1" stop-color="#70dfed"/>
+    </linearGradient>
+  </defs>
+  <g id="circular-medallion">
+    <circle class="st13" cx="256" cy="256" r="240"/>
+    <circle class="st12" cx="256" cy="256" r="229"/>
+    <circle class="st10" cx="256" cy="256" r="222"/>
+    <circle class="st7" cx="256" cy="256" r="211"/>
+    <path class="st5" d="M105,101c63.53-61.66,158.25-78.3,239-42"/>
+    <path class="st8" d="M407,411c-63.53,61.66-158.25,78.3-239,42"/>
+  </g>
+  <circle id="beacon-aura" class="st11" cx="256" cy="256" r="105"/>
+  <path class="st2" d="M360.25,216.48l.1.05-16.68,9.16-77.3-41.94,42.51,5.69,10.97,5.78-62.55-92.78-57.31,92.21,46.64-12.36-74.68,43.71-17.95-10.52,102-149.48,104.35,150.52-.1-.04ZM78.87,326.19l14.79,12.29,63.88-72.5,73.56,58.23-11.82-34.49-71.44-62.33-68.97,98.8ZM109.13,343.26l50.41-19.4,79.22,54.12-5.14-34.72-75.1-60.25-49.38,60.25ZM160.57,367.76l85.39,47.99-7.2-23.49-79.22-59.23,1.03,34.72ZM344.54,323.34l16.37-7.54,18.52,6.71,2.77-74.07-16.6-22.17-18.09,17.58-2.98,79.49ZM316.4,277.12l-7.66,46.05-2.19-31.03-26.26,33.03-7.66,39.04,62.38-42.04,1.09-74.08-19.7,29.03ZM389.96,333.36l10.86,7.2,35.08-13.87-45.94-66.51v73.18ZM273.02,380.93l-7.02,34.82,96.83-55.68,2.23-33.15-92.04,54.01Z"/>
+  <g id="guiding-beacon">
+    <circle class="st6" cx="256" cy="256" r="38"/>
+    <path class="st4" d="M256,136l4,112,47,8-47,5-4,161-4-160-43-6,43-6,4-114Z"/>
+    <path class="st9" d="M256,215l25,41-25,41-25-41,25-41Z"/>
+    <path class="st0" d="M256,226l15,30-15,30-15-30,15-30Z"/>
+    <path class="st3" d="M246,256l10-14,10,14-10,14-10-14Z"/>
+    <path class="st1" d="M256,204v10M256,298v10M204,256h10M298,256h10"/>
+  </g>
+</svg>
