@@ -3,6 +3,7 @@ const config = JSON.parse(await readFile(new URL('./site.json', import.meta.url)
 if (!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(config.email)) throw new Error('A valid support contact is required.');
 const esc = text => String(text).replaceAll('&','&amp;').replaceAll('<','&lt;').replaceAll('>','&gt;').replaceAll('"','&quot;');
 const email = esc(config.email);
+const updated = new Intl.DateTimeFormat('en-GB',{day:'numeric',month:'long',year:'numeric',timeZone:'UTC'}).format(new Date(config.updated+'T00:00:00Z'));
 const links = [['index.html','Home'],['terms.html','Terms'],['privacy.html','Privacy'],['support.html','Support']];
 function shell(file, title, description, main) {
   return `<!doctype html>
@@ -15,7 +16,7 @@ for (const file of ['logo.svg','style.css']) await copyFile(new URL('./assets/'+
 await writeFile(new URL('./docs/.nojekyll',import.meta.url),'');
 for (const name of ['terms','privacy','support']) {
   const data=JSON.parse(await readFile(new URL('./content/'+name+'.json',import.meta.url),'utf8'));
-  const heading=`<header class="page-heading"><p class="eyebrow">Community information</p><h1>${esc(data.title)}</h1><p class="intro">${esc(data.intro)}</p><p class="date">Last updated: <time datetime="2026-10-18">${esc(config.updated)}</time></p></header>`;
+  const heading=`<header class="page-heading"><p class="eyebrow">Community information</p><h1>${esc(data.title)}</h1><p class="intro">${esc(data.intro)}</p><p class="date">Last updated: <time datetime="${esc(config.updated)}">${esc(updated)}</time></p></header>`;
   const toc=`<aside class="toc" aria-label="On this page"><strong>On this page</strong>${data.sections.map(s=>`<a href="#${s.id}">${esc(s.title)}</a>`).join('')}</aside>`;
   const sections=data.sections.map(s=>`<section id="${s.id}"><h2>${esc(s.title)}</h2>${s.html.replaceAll('{{EMAIL}}',email)}</section>`).join('\n');
   await writeFile(new URL('./docs/'+name+'.html',import.meta.url),shell(name+'.html',data.title,data.intro,heading+`<div class="document">${toc}<article>${sections}</article></div>`));

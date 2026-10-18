@@ -14,6 +14,6 @@ for(const file of pages){
   }
 }
 const privacy=await readFile(path.join(root,'privacy.html'),'utf8');
-for(const text of ['d2embot@outlook.com','Neon','Microsoft Outlook','/unregister','no automatic expiry','not a complete']) assert.ok(privacy.includes(text)||text==='not a complete');
+for(const text of ['d2embot@outlook.com','Neon','Microsoft Outlook','/unregister','no automatic expiry']) assert.ok(privacy.includes(text));
 assert.ok(!pages.some(file=>file.includes('env')));
 console.log(`PASS: ${pages.length} pages; all local links/assets, contact, registration/retention disclosures, viewport/accessibility landmarks and absence of scripts/placeholders.`);

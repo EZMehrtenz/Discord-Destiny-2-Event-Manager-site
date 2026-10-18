@@ -32,3 +32,10 @@ In the repository's Settings → Pages, choose “Deploy from a branch”, branc
 The Developer Portal's Terms of Service URL should point to the published `terms.html`; Privacy Policy URL to `privacy.html`. Do not use private-repository links or local preview addresses.
 
 This site is independent of the bot application’s runtime hosting. Publishing it does not rename the bot’s existing source repository or migrate its database.
+
+## Public addresses
+
+- Home: https://ezmehrtenz.github.io/destiny-2-event-manager-site/
+- Terms: https://ezmehrtenz.github.io/destiny-2-event-manager-site/terms.html
+- Privacy: https://ezmehrtenz.github.io/destiny-2-event-manager-site/privacy.html
+- Support: https://ezmehrtenz.github.io/destiny-2-event-manager-site/support.html
