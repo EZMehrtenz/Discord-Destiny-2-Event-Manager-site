@@ -35,21 +35,27 @@ This site is independent of the bot application’s runtime hosting. Publishing 
 
 ## Public addresses
 
-- Home: https://ezmehrtenz.github.io/destiny-2-event-manager-site/
-- Terms: https://ezmehrtenz.github.io/destiny-2-event-manager-site/terms.html
-- Privacy: https://ezmehrtenz.github.io/destiny-2-event-manager-site/privacy.html
-- Support: https://ezmehrtenz.github.io/destiny-2-event-manager-site/support.html
+- Home: https://ezmehrtenz.github.io/Discord-Destiny-2-Event-Manager-site/
+- Terms: https://ezmehrtenz.github.io/Discord-Destiny-2-Event-Manager-site/terms.html
+- Privacy: https://ezmehrtenz.github.io/Discord-Destiny-2-Event-Manager-site/privacy.html
+- Support: https://ezmehrtenz.github.io/Discord-Destiny-2-Event-Manager-site/support.html
 
 ## Externally usable media
 
 Public media source files live in `assets/media/` and are copied to `docs/assets/media/` by the build. Use the GitHub Pages addresses directly in Discord, not GitHub file-viewer URLs. Everything in this directory is public.
 
-- 16:9 cover: https://ezmehrtenz.github.io/destiny-2-event-manager-site/assets/media/destiny-2-event-manager-cover.png
-- Wide banner: https://ezmehrtenz.github.io/destiny-2-event-manager-site/assets/media/destiny-2-event-manager-banner.png
+- 16:9 cover: https://ezmehrtenz.github.io/Discord-Destiny-2-Event-Manager-site/assets/media/destiny-2-event-manager-cover.png
+- Wide banner: https://ezmehrtenz.github.io/Discord-Destiny-2-Event-Manager-site/assets/media/destiny-2-event-manager-banner.png
 
 Both images use the tagline “We’ve got your back, Guardian.”. Add future approved public assets to the source folder and run the build before committing.
 
 Additional upload sizes (same design and tagline):
 
-- Bot profile, 680 × 240: https://ezmehrtenz.github.io/destiny-2-event-manager-site/assets/media/destiny-2-event-manager-680x240.png
-- 16:9, 1024 × 576: https://ezmehrtenz.github.io/destiny-2-event-manager-site/assets/media/destiny-2-event-manager-1024x576.png
+- Bot profile, 680 × 240: https://ezmehrtenz.github.io/Discord-Destiny-2-Event-Manager-site/assets/media/destiny-2-event-manager-680x240.png
+- 16:9, 1024 × 576: https://ezmehrtenz.github.io/Discord-Destiny-2-Event-Manager-site/assets/media/destiny-2-event-manager-1024x576.png
+
+## Repository rename
+
+Canonical repository: https://github.com/EZMehrtenz/Discord-Destiny-2-Event-Manager-site
+
+The GitHub Pages path changed with the repository name. Update the Discord Developer Portal Home Page, Terms of Service and Privacy Policy links, plus externally linked media URLs, to the addresses above. Do not rely on the former Pages address redirecting. Internal site links and assets are relative and remain valid.
